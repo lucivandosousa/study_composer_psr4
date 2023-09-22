@@ -1,0 +1,22 @@
+{
+	"name": "lucivandosousa/buscador-cursos",
+	"description": "Projeto de estudo do composer",
+	"type": "library",
+	"authors": [
+		{
+			"name": "lucivando.sousa",
+			"email": "lucivandosousa@gmail.com"
+		}
+	],
+	"require": {
+		"guzzlehttp/guzzle": "^7.8",
+		"symfony/dom-crawler": "^5.4",
+		"symfony/css-selector": "^5.4"
+	},
+	"autoload": {
+		"files": ["./functions.php"],
+		"psr-4": {
+			"BuscadorDeCursos\\": "src/"
+		}
+	}
+}
